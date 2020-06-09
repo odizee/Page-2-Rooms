@@ -93,6 +93,13 @@ font-size: 21px;
 line-height: 37px;
 }
 
+.p-book:hover, .p-book:active{
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+    
+}
+
 .p-money{
 position: absolute;
 display: flex;
@@ -185,6 +192,14 @@ font-size: 21px;
 line-height: 37px;
 }
 
+.p-book2:hover, .p-book2:active{
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+    
+}
+
+
 .p-money2{
 position: absolute;
 display: flex;
@@ -274,6 +289,14 @@ font-weight: 600;
 font-size: 21px;
 line-height: 37px;
 }
+
+.p-book3:hover, .p-book3:active{
+    background-color: white;
+    opacity: 0.6;
+    color: black;
+    
+}
+
 
 .p-money3{
 position: absolute;
@@ -399,6 +422,83 @@ img{
         left: 3px;
         top: 250px;
     }
+.box2{
+    height: 300px;
+    width: 320px;
+    }
+    
+.p-des2 {
+    width: 240px;
+    height: 10px;
+    font-size: 13px;
+    left: 1px;
+    margin: 0 20px;
+    top: 10px;
+    }
+    
+.p-money2{
+    
+    display: flex;
+    left: 160px;
+    top: 220px;
+    font-size: 15px;
+
+    
+}
+
+    .p-book2{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        left: 30px;
+        top: 200px;
+        
+    }
+    
+    .h2-2{
+        font-size: 20px;
+        left: 3px;
+        top: 250px;
+    }
+    
+    .box3{
+    height: 300px;
+    width: 320px;
+    }
+    
+.p-des3 {
+    width: 240px;
+    height: 10px;
+    font-size: 13px;
+    left: 1px;
+    margin: 0 20px;
+    top: 10px;
+    }
+    
+.p-money3{
+    
+    display: flex;
+    left: 160px;
+    top: 220px;
+    font-size: 15px;
+
+    
+}
+
+    .p-book3{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        left: 30px;
+        top: 200px;
+        
+    }
+    
+    .h2-3{
+        font-size: 20px;
+        left: 3px;
+        top: 250px;
+    }
 }
     
 @media screen and (max-width: 500px){
@@ -453,6 +553,95 @@ img{
         left: 3px;
         top: 195px;
     }
+    
+    
+
+img{
+    height: 230px;
+    width: 200px;
+}
+
+
+.box2{
+    height: 230px;
+    width: 220px;
+    }
+    
+.p-des2 {
+    width: 200px;
+    height: 10px;
+    font-size: 10px;
+    left: -10px;
+    margin: 0 0 10px 10px;
+    top: 12px;
+    }
+    
+.p-money2{
+    
+    display: flex;
+    left: 10px;
+    top: 140px;
+    font-size: 11px;
+
+    
+}
+
+    .p-book2{
+        width: 80px;
+        height: 40px;
+        font-size: 12px;
+        left: 10px;
+        top: 170px;
+        
+    }
+    
+    .h2-2{
+        font-size: 16px;
+        left: 3px;
+        top: 195px;
+    }
+
+
+.box3{
+    height: 230px;
+    width: 220px;
+    }
+    
+.p-des3 {
+    width: 200px;
+    height: 10px;
+    font-size: 10px;
+    left: -10px;
+    margin: 0 0 10px 10px;
+    top: 12px;
+    }
+    
+.p-money3{
+    
+    display: flex;
+    left: 10px;
+    top: 140px;
+    font-size: 11px;
+
+    
+}
+
+    .p-book3{
+        width: 80px;
+        height: 40px;
+        font-size: 12px;
+        left: 10px;
+        top: 170px;
+        
+    }
+    
+    .h2-3{
+        font-size: 16px;
+        left: 3px;
+        top: 195px;
+    }
+    
+    
 }
 
         
