@@ -1,9 +1,9 @@
-
 html, body { 
     background: #1C323A;
     margin: 0; 
     padding: 0;
-    min-width:95%;
+    min-width:100%;
+    overflow: auto;
 } 
 
 .banner {
@@ -325,25 +325,27 @@ font-size: 30px;
 color: #FFFFFF;
 }
 
+/*RESPONSIVE*/
 
 /*
-@media screen and (max-width:1300px){
+@media screen and (max-width:1200px){
     
- 
- body { 
+    body { 
     background: #1C323A;
-    max-width: 960px;
+    max-width: 100%;
 } 
 
-img{
-    width: 600px;
-    height: 400px;
+.img1{
+    height: 300px;
+    width: 430px;
+    margin-left: -10px;
 }
 
 
 .box{
-    height: 400px;
-    width: 100%;    }
+    height: 300px;
+    width: 430px;
+    }
     
 .p-des {
     width: 240px;
@@ -374,14 +376,105 @@ img{
     }
     
     .h2-1{
-        font-size: 20px;
-        left: 3px;
+        font-size: 25px;
+        left: 5px;
         top: 250px;
     }
+    
+    .img2{
+    height: 300px;
+    width: 430px;
 }
-*/
 
-@media screen and (max-width:680px){
+
+.box2{
+    height: 300px;
+    width: 430px;
+    }
+    
+.p-des2 {
+    width: 240px;
+    height: 10px;
+    font-size: 13px;
+    left: 1px;
+    margin: 0 20px;
+    top: 10px;
+    }
+    
+.p-money2{
+    
+    display: flex;
+    left: 160px;
+    top: 220px;
+    font-size: 15px;
+
+    
+}
+
+    .p-book2{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        left: 30px;
+        top: 200px;
+        
+    }
+    
+    .h2-2{
+        font-size: 25px;
+        left: 5px;
+        top: 250px;
+    }
+    
+.img3{
+    height: 300px;
+    width: 430px;
+}
+
+
+.box3{
+    height: 300px;
+    width: 430px;
+    }
+    
+.p-des3 {
+    width: 240px;
+    height: 10px;
+    font-size: 13px;
+    left: 1px;
+    margin: 0 20px;
+    top: 10px;
+    }
+    
+.p-money3{
+    
+    display: flex;
+    left: 160px;
+    top: 220px;
+    font-size: 15px;
+
+    
+}
+
+    .p-book3{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        left: 30px;
+        top: 200px;
+        
+    }
+    
+    .h2-3{
+        font-size: 25px;
+        left: 5px;
+        top: 250px;
+    }
+
+    
+
+
+ @media screen and (max-width:800px){
     
  
  body { 
@@ -432,6 +525,7 @@ img{
         font-size: 20px;
         left: 3px;
         top: 250px;
+        color: white;
     }
 .box2{
     height: 300px;
@@ -511,149 +605,317 @@ img{
         top: 250px;
     }
 }
-    
-@media screen and (max-width: 500px){
+ 
+
+
+
+@media screen and (max-width:650px){
+   
     
  
  body { 
     background: #1C323A;
-    max-width: 400px;
+    max-width: 680px;
 } 
 
-img{
-    height: 230px;
+.img1{
+    height: 150px;
     width: 200px;
+    margin-left: -20px;
+    margin-right: 20
 }
 
 
 .box{
-    height: 230px;
-    width: 220px;
+    height: 150px;
+    width: 250px;
+    margin-left: -20px;
+    
     }
     
 .p-des {
-    width: 200px;
+    width: 240px;
     height: 10px;
     font-size: 10px;
-    left: -10px;
-    margin: 0 0 10px 10px;
-    top: 12px;
+    left: -20px;
+    margin: 0 15px;
+    top: -10px;
     }
     
 .p-money{
     
     display: flex;
-    left: 10px;
-    top: 140px;
-    font-size: 11px;
+    left: 100px;
+    top: 100px;
+    font-size: 15px;
 
     
 }
 
     .p-book{
-        width: 80px;
-        height: 40px;
-        font-size: 12px;
-        left: 10px;
-        top: 170px;
+        width: 70px;
+        height: 30px;
+        font-size: 9px;
+        left: 5px;
+        top: 100px;
         
     }
     
     .h2-1{
-        font-size: 16px;
-        left: 3px;
-        top: 195px;
+        font-size: 18px;
+        left: -30px;
+        top: 110px;
+        color: white;
     }
-    
-    
-
-img{
-    height: 230px;
+        
+.img2{
+    height: 150px;
     width: 200px;
+    margin-left: -20px;
+    margin-right: 20
 }
 
-
 .box2{
-    height: 230px;
-    width: 220px;
+    height: 150px;
+    width: 250px;
+    margin-left: -20px;
+    
     }
     
 .p-des2 {
-    width: 200px;
+    width: 240px;
     height: 10px;
     font-size: 10px;
-    left: -10px;
-    margin: 0 0 10px 10px;
-    top: 12px;
+    left: -20px;
+    margin: 0 15px;
+    top: -10px;
     }
     
 .p-money2{
     
     display: flex;
-    left: 10px;
-    top: 140px;
-    font-size: 11px;
+    left: 100px;
+    top: 100px;
+    font-size: 15px;
 
     
 }
 
     .p-book2{
-        width: 80px;
-        height: 40px;
-        font-size: 12px;
-        left: 10px;
-        top: 170px;
+        width: 70px;
+        height: 30px;
+        font-size: 9px;
+        left: 5px;
+        top: 100px;
         
     }
     
     .h2-2{
-        font-size: 16px;
-        left: 3px;
-        top: 195px;
+        font-size: 18px;
+        left: -35px;
+        top: 112px;
     }
+    
+
+.img3{
+    height: 150px;
+    width: 200px;
+    margin-left: -40px;
+    margin-right: 20
+}
 
 
 .box3{
-    height: 230px;
-    width: 220px;
+    height: 150px;
+    width: 270px;
+    margin-left: -20px;
+    
     }
     
 .p-des3 {
-    width: 200px;
+    width: 240px;
     height: 10px;
     font-size: 10px;
-    left: -10px;
-    margin: 0 0 10px 10px;
-    top: 12px;
+    left: -20px;
+    margin: 0 15px;
+    top: -10px;
     }
     
 .p-money3{
     
     display: flex;
-    left: 10px;
-    top: 140px;
-    font-size: 11px;
+    left: 100px;
+    top: 100px;
+    font-size: 15px;
 
     
 }
 
     .p-book3{
-        width: 80px;
-        height: 40px;
-        font-size: 12px;
-        left: 10px;
-        top: 170px;
+        width: 70px;
+        height: 30px;
+        font-size: 9px;
+        left: 5px;
+        top: 100px;
         
     }
     
     .h2-3{
-        font-size: 16px;
-        left: 3px;
-        top: 195px;
+        font-size: 18px;
+        left: -33px;
+        top: 115px;
     }
-    
-    
+        
+}
+*/
+
+
+/*navbar*/
+
+header{
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  
 }
 
-        
 
+.navbar	{
+	width: 100%;
+	padding-top: 0;
+}
+
+nav {
+	float: right;
+}
+
+.n-box {
+  font-family: 'Pacifico', cursive;
+  margin-top: 0;
+  margin-left: 5%;
+  float: left;
+  padding-top: 5px;
+  width: 10%;
+  height:30%;
+  background-color: #1C323A;
+}
+
+.k-h2 {
+	color: #B18B11;
+	font-size: 30px;
+	text-align: center;
+	font-weight: 500
+	padding-top:10px;
+
+}
+
+
+nav ul{
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+}
+
+nav li {
+  float: left;
+  margin-left: 70px;
+  padding-top: 30px;
+  font-size: 15px;
+
+  position: relative;
+
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #B18B11;
+}
+
+
+/*body-banner*/
+
+
+.banner {
+
+      background: url("Images/premium.png");
+      /*position: relative;*/
+      height: 623px;
+      left: 0;
+      right: 0;
+      max-width: auto;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+}
+
+
+
+
+.left h2 {
+	position: relative;
+	top: 350px;
+	left: 20px;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 50px;
+
+
+}
+
+
+.right {
+	color: #FFFFFF;
+	flex-direction: column;
+	padding: 40px;
+	position: relative;
+	width: calc(50% - 10px);
+}
+
+
+
+
+.right h2 {
+	margin: 0;
+	position: relative;
+	top:240px;
+	left:180px;
+	font-weight: 600;
+	font-size: 28px;
+
+}
+
+.right button {
+	background-color: transparent;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: 500;
+	font-size: 25px;
+	padding: 15px 30px;
+	margin-top: auto;
+
+	position: relative;
+	top: 200px;
+
+
+}
+
+.right::before {
+	border-top: 0 solid transparent;
+/* 	border-bottom: vh solid transparent */
+	border-right: 30px solid #222;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 100%;
+	height: 0%;
+	width: 0;
+}
