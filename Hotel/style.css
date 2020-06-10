@@ -325,450 +325,6 @@ font-size: 30px;
 color: #FFFFFF;
 }
 
-/*RESPONSIVE*/
-
-/*
-@media screen and (max-width:1200px){
-    
-    body { 
-    background: #1C323A;
-    max-width: 100%;
-} 
-
-.img1{
-    height: 300px;
-    width: 430px;
-    margin-left: -10px;
-}
-
-
-.box{
-    height: 300px;
-    width: 430px;
-    }
-    
-.p-des {
-    width: 240px;
-    height: 10px;
-    font-size: 13px;
-    left: 1px;
-    margin: 0 20px;
-    top: 10px;
-    }
-    
-.p-money{
-    
-    display: flex;
-    left: 160px;
-    top: 220px;
-    font-size: 15px;
-
-    
-}
-
-    .p-book{
-        width: 100px;
-        height: 50px;
-        font-size: 15px;
-        left: 30px;
-        top: 200px;
-        
-    }
-    
-    .h2-1{
-        font-size: 25px;
-        left: 5px;
-        top: 250px;
-    }
-    
-    .img2{
-    height: 300px;
-    width: 430px;
-}
-
-
-.box2{
-    height: 300px;
-    width: 430px;
-    }
-    
-.p-des2 {
-    width: 240px;
-    height: 10px;
-    font-size: 13px;
-    left: 1px;
-    margin: 0 20px;
-    top: 10px;
-    }
-    
-.p-money2{
-    
-    display: flex;
-    left: 160px;
-    top: 220px;
-    font-size: 15px;
-
-    
-}
-
-    .p-book2{
-        width: 100px;
-        height: 50px;
-        font-size: 15px;
-        left: 30px;
-        top: 200px;
-        
-    }
-    
-    .h2-2{
-        font-size: 25px;
-        left: 5px;
-        top: 250px;
-    }
-    
-.img3{
-    height: 300px;
-    width: 430px;
-}
-
-
-.box3{
-    height: 300px;
-    width: 430px;
-    }
-    
-.p-des3 {
-    width: 240px;
-    height: 10px;
-    font-size: 13px;
-    left: 1px;
-    margin: 0 20px;
-    top: 10px;
-    }
-    
-.p-money3{
-    
-    display: flex;
-    left: 160px;
-    top: 220px;
-    font-size: 15px;
-
-    
-}
-
-    .p-book3{
-        width: 100px;
-        height: 50px;
-        font-size: 15px;
-        left: 30px;
-        top: 200px;
-        
-    }
-    
-    .h2-3{
-        font-size: 25px;
-        left: 5px;
-        top: 250px;
-    }
-
-    
-
-
- @media screen and (max-width:800px){
-    
- 
- body { 
-    background: #1C323A;
-    max-width: 680px;
-} 
-
-img{
-    height: 300px;
-    width: 260px;
-}
-
-
-.box{
-    height: 300px;
-    width: 320px;
-    }
-    
-.p-des {
-    width: 240px;
-    height: 10px;
-    font-size: 13px;
-    left: 1px;
-    margin: 0 20px;
-    top: 10px;
-    }
-    
-.p-money{
-    
-    display: flex;
-    left: 160px;
-    top: 220px;
-    font-size: 15px;
-
-    
-}
-
-    .p-book{
-        width: 100px;
-        height: 50px;
-        font-size: 15px;
-        left: 30px;
-        top: 200px;
-        
-    }
-    
-    .h2-1{
-        font-size: 20px;
-        left: 3px;
-        top: 250px;
-        color: white;
-    }
-.box2{
-    height: 300px;
-    width: 320px;
-    }
-    
-.p-des2 {
-    width: 240px;
-    height: 10px;
-    font-size: 13px;
-    left: 1px;
-    margin: 0 20px;
-    top: 10px;
-    }
-    
-.p-money2{
-    
-    display: flex;
-    left: 160px;
-    top: 220px;
-    font-size: 15px;
-
-    
-}
-
-    .p-book2{
-        width: 100px;
-        height: 50px;
-        font-size: 15px;
-        left: 30px;
-        top: 200px;
-        
-    }
-    
-    .h2-2{
-        font-size: 20px;
-        left: 3px;
-        top: 250px;
-    }
-    
-    .box3{
-    height: 300px;
-    width: 320px;
-    }
-    
-.p-des3 {
-    width: 240px;
-    height: 10px;
-    font-size: 13px;
-    left: 1px;
-    margin: 0 20px;
-    top: 10px;
-    }
-    
-.p-money3{
-    
-    display: flex;
-    left: 160px;
-    top: 220px;
-    font-size: 15px;
-
-    
-}
-
-    .p-book3{
-        width: 100px;
-        height: 50px;
-        font-size: 15px;
-        left: 30px;
-        top: 200px;
-        
-    }
-    
-    .h2-3{
-        font-size: 20px;
-        left: 3px;
-        top: 250px;
-    }
-}
- 
-
-
-
-@media screen and (max-width:650px){
-   
-    
- 
- body { 
-    background: #1C323A;
-    max-width: 680px;
-} 
-
-.img1{
-    height: 150px;
-    width: 200px;
-    margin-left: -20px;
-    margin-right: 20
-}
-
-
-.box{
-    height: 150px;
-    width: 250px;
-    margin-left: -20px;
-    
-    }
-    
-.p-des {
-    width: 240px;
-    height: 10px;
-    font-size: 10px;
-    left: -20px;
-    margin: 0 15px;
-    top: -10px;
-    }
-    
-.p-money{
-    
-    display: flex;
-    left: 100px;
-    top: 100px;
-    font-size: 15px;
-
-    
-}
-
-    .p-book{
-        width: 70px;
-        height: 30px;
-        font-size: 9px;
-        left: 5px;
-        top: 100px;
-        
-    }
-    
-    .h2-1{
-        font-size: 18px;
-        left: -30px;
-        top: 110px;
-        color: white;
-    }
-        
-.img2{
-    height: 150px;
-    width: 200px;
-    margin-left: -20px;
-    margin-right: 20
-}
-
-.box2{
-    height: 150px;
-    width: 250px;
-    margin-left: -20px;
-    
-    }
-    
-.p-des2 {
-    width: 240px;
-    height: 10px;
-    font-size: 10px;
-    left: -20px;
-    margin: 0 15px;
-    top: -10px;
-    }
-    
-.p-money2{
-    
-    display: flex;
-    left: 100px;
-    top: 100px;
-    font-size: 15px;
-
-    
-}
-
-    .p-book2{
-        width: 70px;
-        height: 30px;
-        font-size: 9px;
-        left: 5px;
-        top: 100px;
-        
-    }
-    
-    .h2-2{
-        font-size: 18px;
-        left: -35px;
-        top: 112px;
-    }
-    
-
-.img3{
-    height: 150px;
-    width: 200px;
-    margin-left: -40px;
-    margin-right: 20
-}
-
-
-.box3{
-    height: 150px;
-    width: 270px;
-    margin-left: -20px;
-    
-    }
-    
-.p-des3 {
-    width: 240px;
-    height: 10px;
-    font-size: 10px;
-    left: -20px;
-    margin: 0 15px;
-    top: -10px;
-    }
-    
-.p-money3{
-    
-    display: flex;
-    left: 100px;
-    top: 100px;
-    font-size: 15px;
-
-    
-}
-
-    .p-book3{
-        width: 70px;
-        height: 30px;
-        font-size: 9px;
-        left: 5px;
-        top: 100px;
-        
-    }
-    
-    .h2-3{
-        font-size: 18px;
-        left: -33px;
-        top: 115px;
-    }
-        
-}
-*/
-
 
 /*navbar*/
 
@@ -807,7 +363,7 @@ nav {
 	text-align: center;
 	font-weight: 500
 	padding-top:10px;
-
+    
 }
 
 
@@ -859,7 +415,7 @@ nav a:hover {
 
 
 
-.left h2 {
+.left .k-h2 {
 	position: relative;
 	top: 350px;
 	left: 20px;
@@ -919,3 +475,184 @@ nav a:hover {
 	height: 0%;
 	width: 0;
 }
+
+
+/*RESPONSIVE*/
+
+
+@media screen and (max-width:500px){
+    
+    body { 
+    background: #1C323A;
+    max-width: 100%;
+} 
+
+.img1{
+    height: 200px;
+    width: 200px;
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+
+.box{
+    height: 200px;
+    width: 220px;
+    }
+    
+.p-des {
+    width: 180px;
+    height: 10px;
+    font-size: 13px;
+    left: -20px;
+    margin: 0 20px;
+    top: -5px;
+    }
+    
+.p-money{
+    
+    display: flex;
+    left: 100px;
+    top: 165px;
+    font-size: 13px;
+
+    
+}
+
+    .p-book{
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        left: 10px;
+        top: 170px;
+        
+    }
+    
+    .h2-1{
+        font-size: 18px;
+        left: -20px;
+        top: 160px;
+    }
+    
+      
+    body { 
+    background: #1C323A;
+    max-width: 100%;
+} 
+
+img{
+    height: 200px;
+    width: 200px;
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+
+.box2{
+    height: 200px;
+    width: 220px;
+    }
+    
+.p-des2 {
+    width: 180px;
+    height: 10px;
+    font-size: 13px;
+    left: -20px;
+    margin: 0 20px;
+    top: -5px;
+    }
+    
+.p-money2{
+    
+    display: flex;
+    left: 100px;
+    top: 165px;
+    font-size: 13px;
+
+    
+}
+
+    .p-book2{
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        left: 10px;
+        top: 170px;
+        
+    }
+    
+    .h2-2{
+        font-size: 18px;
+        left: -20px;
+        top: 160px;
+    }
+    
+    
+    
+    body { 
+    background: #1C323A;
+    max-width: 100%;
+} 
+
+.img1{
+    height: 200px;
+    width: 200px;
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+
+.box3{
+    height: 200px;
+    width: 220px;
+    }
+    
+.p-des3 {
+    width: 180px;
+    height: 10px;
+    font-size: 13px;
+    left: -20px;
+    margin: 0 20px;
+    top: -5px;
+    }
+    
+.p-money3{
+    
+    display: flex;
+    left: 100px;
+    top: 165px;
+    font-size: 13px;
+
+    
+}
+
+    .p-book3{
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+        left: 10px;
+        top: 170px;
+        
+    }
+    
+    .h2-3{
+        font-size: 18px;
+        left: -20px;
+        top: 160px;
+    }
+    
+
+    .n-box {
+  font-family: 'Pacifico', cursive;
+  margin-top: 0;
+  margin-left: 5%;
+  float: left;
+  padding-top: 5px;
+  width: 30%;
+  height:30%;
+  background-color: #1C323A;
+}
+
+
+
+ 
