@@ -1,0 +1,58 @@
+#karamo-single-room {
+    position: absolute;
+    width: px;
+    height:300px;
+    left:70px;
+    top:1960px;
+    
+}
+
+
+#karamo {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #B18B11;
+    box-shadow: 0px,4px,50px rgba(0, 0, 0.25);  
+}
+ 
+#card-text {
+    position:absolute;
+    color: #FFFFFF;  
+}
+
+#button{
+   
+    left: 10px;
+    top: 31.5px;
+    line-height: 37px;   
+}
+
+
+#Book-Now{
+     position: static;
+       color: #FFFFFF;
+    
+}
+
+#image-container {
+    position: relative;
+}
+
+
+img {
+    
+    max-width: 100%; 
+    
+}
+
+h5 {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    width: 100%;
+    color: white;
+    bottom:50px;
+}
+   
